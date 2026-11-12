@@ -1,0 +1,24 @@
+{
+  "spider": "",
+  "wallpaper": "",
+  "livePlayHeaders": [],
+  "sites": [
+    {
+      "key": "home",
+      "name": "直播",
+      "type": 0,
+      "api": "https://cdn.jsdelivr.net/gh/DaviKee/iptv-cn@main/iptv-cn.m3u",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    }
+  ],
+  "flags": [],
+  "lives": [
+    {
+      "name": "iptv-cn",
+      "type": "0",
+      "url": "https://cdn.jsdelivr.net/gh/DaviKee/iptv-cn@main/iptv-cn.m3u"
+    }
+  ]
+}
