@@ -22,8 +22,10 @@ from urllib.error import URLError
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
-SRC_URL = "https://iptv-org.github.io/iptv/countries/cn.m3u"
-OUT_PATH = Path(__file__).resolve().parent.parent / "iptv-cn.m3u"
+SRC_URL = os.environ.get(
+    "IPTV_SRC_URL", "https://iptv-org.github.io/iptv/countries/cn.m3u")
+OUT_PATH = Path(os.environ.get(
+    "IPTV_OUT_PATH", str(Path(__file__).resolve().parent.parent / "iptv-cn.m3u")))
 CONCURRENCY = 30
 PROBE_LIMIT = int(os.environ.get("PROBE_LIMIT", "0") or 0)  # 仅本地冒烟测试用
 TIMEOUT = 12
