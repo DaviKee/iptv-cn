@@ -1,0 +1,14 @@
+{
+  "spider": "",
+  "wallpaper": "",
+  "livePlayHeaders": [],
+  "sites": [],
+  "flags": [],
+  "lives": [
+    {
+      "name": "iptv-cn",
+      "type": "0",
+      "url": "https://cdn.jsdelivr.net/gh/DaviKee/iptv-cn@main/iptv-cn.m3u"
+    }
+  ]
+}
