@@ -1,7 +1,7 @@
 #EXTM3U
-# 更新时间: 2026-11-12 12:20（北京时间）
+# 更新时间: 2026-11-13 15:42（北京时间）
 # 数据来源: iptv-org 公开免费源集合（https://iptv-org.github.io/iptv/countries/cn.m3u）
-# 本次探测: 总计 156 条，保留 77 条（其中 10 条海外探测失败但有地域限制标记，已归入「需国内网络」分组），剔除 79 条
+# 本次探测: 总计 156 条，保留 79 条（其中 10 条海外探测失败但有地域限制标记，已归入「需国内网络」分组），剔除 77 条
 # 频道版权归各播出机构所有；本文件仅聚合公开免费流，失效属正常现象，每日自动更新
 #EXTINF:-1 tvg-id="CCTVPlus1.cn@SD" group-title="央视",CCTV+ 1 (600p) [Not 24/7]
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
@@ -135,6 +135,10 @@ http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh.m3u8
 #EXTINF:-1 tvg-id="XizangTVTibetan.cn@SD" group-title="地方及其他",Xizang TV Tibetan
 https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8
+#EXTINF:-1 tvg-id="YichangSanxiaGeneralChannel.cn@SD" group-title="地方及其他",Yichang Sanxia General Channel
+https://liveplay.ycrmt.cn/sxgd/zhpd.m3u8
+#EXTINF:-1 tvg-id="YichangSanxiaTravelLifeChannel.cn@SD" group-title="地方及其他",Yichang Sanxia Travel & Life Channel
+https://liveplay.ycrmt.cn/sxgd/lysh.m3u8
 #EXTINF:-1 tvg-id="ZhejiangInternationalChannel.cn@SD" group-title="地方及其他",Zhejiang International Channel
 https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 #EXTINF:-1 tvg-id="CCTV6.cn@SD" group-title="需国内网络",CCTV-6 [Geo-blocked]
