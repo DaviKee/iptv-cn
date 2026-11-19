@@ -1,7 +1,7 @@
 #EXTM3U
-# 更新时间: 2026-11-18 16:21（北京时间）
+# 更新时间: 2026-11-19 16:33（北京时间）
 # 数据来源: iptv-org 公开免费源集合（https://iptv-org.github.io/iptv/countries/cn.m3u）
-# 本次探测: 总计 156 条，保留 75 条（其中 10 条海外探测失败但有地域限制标记，已归入「需国内网络」分组），剔除 81 条
+# 本次探测: 总计 156 条，保留 77 条（其中 10 条海外探测失败但有地域限制标记，已归入「需国内网络」分组），剔除 79 条
 # 频道版权归各播出机构所有；本文件仅聚合公开免费流，失效属正常现象，每日自动更新
 #EXTINF:-1 tvg-id="CCTVPlus1.cn@SD" group-title="央视",CCTV+ 1 (600p) [Not 24/7]
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
@@ -63,12 +63,18 @@ http://38.75.136.137:98/gslb/dsdqpub/gfjs.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="CCTVWorldGeography.cn@SD" group-title="央视",CCTV-World Geography SD (1080p)
 http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="BeijingSatelliteTV.cn@HD" group-title="卫视",Beijing Satellite TV HD (1080p)
+http://go.bkpcp.top/mg/bjws
 #EXTINF:-1 tvg-id="GuangdongSatelliteTV.cn@SD" group-title="卫视",Guangdong Satellite TV
 https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
+#EXTINF:-1 tvg-id="QTV2.cn@SD" group-title="地方及其他",QTV-2
+http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8
 #EXTINF:-1 tvg-id="XinjiangTV2.cn@SD" group-title="地方及其他",Xinjiang TV 2
 http://110.153.180.106:55555/out_3/index.m3u8
 #EXTINF:-1 tvg-id="XinjiangTV3.cn@SD" group-title="地方及其他",Xinjiang TV 3
 http://110.153.180.106:55555/out_2/index.m3u8
+#EXTINF:-1 tvg-id="QTV5.cn@SD" group-title="地方及其他",QTV-5
+http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8
 #EXTINF:-1 tvg-id="XinjiangTV8.cn@SD" group-title="地方及其他",Xinjiang TV 8
 http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
 #EXTINF:-1 tvg-id="ChuxiongNewsChannel.cn@SD" group-title="地方及其他",Chuxiong News Channel [Not 24/7]
@@ -85,8 +91,6 @@ https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-id="AnhuiTV.cn@SD" group-title="地方及其他",Anhui TV (1080p)
 https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
-#EXTINF:-1 tvg-id="TVBRICSChinese.cn@SD" group-title="地方及其他",TV BRICS Chinese (1080p)
-https://chibrics.mediacdn.ru/cdn/brics/chinese/playlist.m3u8
 #EXTINF:-1 tvg-id="VoATVChina.cn@SD" group-title="地方及其他",VoA TV China (1080p)
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
 #EXTINF:-1 tvg-id="HebeiTV.cn@SD" group-title="地方及其他",Hebei TV (2160p)
