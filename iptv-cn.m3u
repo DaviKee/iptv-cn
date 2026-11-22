@@ -1,7 +1,7 @@
 #EXTM3U
-# 更新时间: 2026-11-21 16:07（北京时间）
+# 更新时间: 2026-11-22 15:54（北京时间）
 # 数据来源: iptv-org 公开免费源集合（https://iptv-org.github.io/iptv/countries/cn.m3u）
-# 本次探测: 总计 156 条，保留 75 条（其中 10 条海外探测失败但有地域限制标记，已归入「需国内网络」分组），剔除 81 条
+# 本次探测: 总计 156 条，保留 76 条（其中 10 条海外探测失败但有地域限制标记，已归入「需国内网络」分组），剔除 80 条
 # 频道版权归各播出机构所有；本文件仅聚合公开免费流，失效属正常现象，每日自动更新
 #EXTINF:-1 tvg-id="CCTVPlus1.cn@SD" group-title="央视",CCTV+ 1 (600p) [Not 24/7]
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
@@ -15,6 +15,8 @@ http://74.91.26.218:82/live/cctv2hd.m3u8
 http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 tvg-id="CCTV5Plus.cn@SD" group-title="央视",CCTV-5+ (1080p)
 https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p
+#EXTINF:-1 tvg-id="CCTV6.cn@HD" group-title="央视",CCTV-6 HD (1080p)
+http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 tvg-id="CCTV7.cn@SD" group-title="央视",CCTV-7 (720p)
 http://74.91.26.218:82/live/cctv7hd.m3u8
 #EXTINF:-1 tvg-id="CCTV8.cn@SD" group-title="央视",CCTV-8 (720p)
@@ -63,8 +65,6 @@ http://38.75.136.137:98/gslb/dsdqpub/gfjs.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="CCTVWorldGeography.cn@SD" group-title="央视",CCTV-World Geography SD (1080p)
 http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="BeijingSatelliteTV.cn@HD" group-title="卫视",Beijing Satellite TV HD (1080p)
-http://go.bkpcp.top/mg/bjws
 #EXTINF:-1 tvg-id="GuangdongSatelliteTV.cn@SD" group-title="卫视",Guangdong Satellite TV
 https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
 #EXTINF:-1 tvg-id="QTV2.cn@SD" group-title="地方及其他",QTV-2
@@ -89,8 +89,6 @@ https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-id="AnhuiTV.cn@SD" group-title="地方及其他",Anhui TV (1080p)
 https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
-#EXTINF:-1 tvg-id="TVBRICSChinese.cn@SD" group-title="地方及其他",TV BRICS Chinese (1080p)
-https://chibrics.mediacdn.ru/cdn/brics/chinese/playlist.m3u8
 #EXTINF:-1 tvg-id="VoATVChina.cn@SD" group-title="地方及其他",VoA TV China (1080p)
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
 #EXTINF:-1 tvg-id="HebeiTV.cn@SD" group-title="地方及其他",Hebei TV (2160p)
@@ -131,6 +129,10 @@ http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh.m3u8
 #EXTINF:-1 tvg-id="XizangTVTibetan.cn@SD" group-title="地方及其他",Xizang TV Tibetan
 https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8
+#EXTINF:-1 tvg-id="YichangSanxiaGeneralChannel.cn@SD" group-title="地方及其他",Yichang Sanxia General Channel
+https://liveplay.ycrmt.cn/sxgd/zhpd.m3u8
+#EXTINF:-1 tvg-id="YichangSanxiaTravelLifeChannel.cn@SD" group-title="地方及其他",Yichang Sanxia Travel & Life Channel
+https://liveplay.ycrmt.cn/sxgd/lysh.m3u8
 #EXTINF:-1 tvg-id="ZhejiangInternationalChannel.cn@SD" group-title="地方及其他",Zhejiang International Channel
 https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 #EXTINF:-1 tvg-id="CCTV6.cn@SD" group-title="需国内网络",CCTV-6 [Geo-blocked]
